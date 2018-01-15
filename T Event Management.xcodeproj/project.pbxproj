@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A539560200D272400B0719B /* ImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53955F200D272400B0719B /* ImageTextField.swift */; };
 		5AC209C1200A626700AF9133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC209C0200A626700AF9133 /* AppDelegate.swift */; };
 		5AC209C3200A626700AF9133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC209C2200A626700AF9133 /* ViewController.swift */; };
 		5AC209C6200A626700AF9133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC209C4200A626700AF9133 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A53955F200D272400B0719B /* ImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextField.swift; sourceTree = "<group>"; };
 		5AC209BD200A626700AF9133 /* T Event Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T Event Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC209C0200A626700AF9133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC209C2200A626700AF9133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				5AC209C9200A626700AF9133 /* LaunchScreen.storyboard */,
 				5AC209CC200A626700AF9133 /* Info.plist */,
 				5AC209D2200A8B6F00AF9133 /* ShadowButton.swift */,
+				5A53955F200D272400B0719B /* ImageTextField.swift */,
 			);
 			path = "T Event Management";
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				5AC209C3200A626700AF9133 /* ViewController.swift in Sources */,
 				5AC209D3200A8B6F00AF9133 /* ShadowButton.swift in Sources */,
 				5AC209C1200A626700AF9133 /* AppDelegate.swift in Sources */,
+				5A539560200D272400B0719B /* ImageTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
