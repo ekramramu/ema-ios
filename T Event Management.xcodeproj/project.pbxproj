@@ -14,6 +14,8 @@
 		5AC209C8200A626700AF9133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AC209C7200A626700AF9133 /* Assets.xcassets */; };
 		5AC209CB200A626700AF9133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC209C9200A626700AF9133 /* LaunchScreen.storyboard */; };
 		5AC209D3200A8B6F00AF9133 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC209D2200A8B6F00AF9133 /* ShadowButton.swift */; };
+		5AF3C3C4200E4316004E8917 /* ImportTemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3C3C3200E4316004E8917 /* ImportTemplatesViewController.swift */; };
+		5AF3C3C7200E45A6004E8917 /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3C3C5200E45A6004E8917 /* TemplateCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5AC209CA200A626700AF9133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AC209CC200A626700AF9133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC209D2200A8B6F00AF9133 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		5AF3C3C3200E4316004E8917 /* ImportTemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTemplatesViewController.swift; sourceTree = "<group>"; };
+		5AF3C3C5200E45A6004E8917 /* TemplateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				5AC209CC200A626700AF9133 /* Info.plist */,
 				5AC209D2200A8B6F00AF9133 /* ShadowButton.swift */,
 				5A53955F200D272400B0719B /* ImageTextField.swift */,
+				5AF3C3C3200E4316004E8917 /* ImportTemplatesViewController.swift */,
+				5AF3C3C5200E45A6004E8917 /* TemplateCell.swift */,
 			);
 			path = "T Event Management";
 			sourceTree = "<group>";
@@ -143,9 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AC209C3200A626700AF9133 /* ViewController.swift in Sources */,
+				5AF3C3C7200E45A6004E8917 /* TemplateCell.swift in Sources */,
 				5AC209D3200A8B6F00AF9133 /* ShadowButton.swift in Sources */,
 				5AC209C1200A626700AF9133 /* AppDelegate.swift in Sources */,
 				5A539560200D272400B0719B /* ImageTextField.swift in Sources */,
+				5AF3C3C4200E4316004E8917 /* ImportTemplatesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
