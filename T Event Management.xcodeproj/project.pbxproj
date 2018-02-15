@@ -16,9 +16,12 @@
 		5AC209D3200A8B6F00AF9133 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC209D2200A8B6F00AF9133 /* ShadowButton.swift */; };
 		5AF3C3C4200E4316004E8917 /* ImportTemplatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3C3C3200E4316004E8917 /* ImportTemplatesViewController.swift */; };
 		5AF3C3C7200E45A6004E8917 /* TemplateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3C3C5200E45A6004E8917 /* TemplateCell.swift */; };
+		5AF3C3CA200E4C19004E8917 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3C3C9200E4C19004E8917 /* FoodViewController.swift */; };
+		B6D9A48AD7FCA5295626C01F /* Pods_T_Event_Management.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89B3EDCA70166FB0C3D231E /* Pods_T_Event_Management.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		395A714EA004FB82E2C87E37 /* Pods-T Event Management.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T Event Management.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T Event Management/Pods-T Event Management.debug.xcconfig"; sourceTree = "<group>"; };
 		5A53955F200D272400B0719B /* ImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextField.swift; sourceTree = "<group>"; };
 		5AC209BD200A626700AF9133 /* T Event Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T Event Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC209C0200A626700AF9133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,9 @@
 		5AC209D2200A8B6F00AF9133 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
 		5AF3C3C3200E4316004E8917 /* ImportTemplatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTemplatesViewController.swift; sourceTree = "<group>"; };
 		5AF3C3C5200E45A6004E8917 /* TemplateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateCell.swift; sourceTree = "<group>"; };
+		5AF3C3C9200E4C19004E8917 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		78CA882C7D899EDDF1D14AFC /* Pods-T Event Management.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T Event Management.release.xcconfig"; path = "Pods/Target Support Files/Pods-T Event Management/Pods-T Event Management.release.xcconfig"; sourceTree = "<group>"; };
+		C89B3EDCA70166FB0C3D231E /* Pods_T_Event_Management.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T_Event_Management.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D9A48AD7FCA5295626C01F /* Pods_T_Event_Management.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A6CE0788CD8E7DAFC76AC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C89B3EDCA70166FB0C3D231E /* Pods_T_Event_Management.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5AC209B4200A626600AF9133 = {
 			isa = PBXGroup;
 			children = (
 				5AC209BF200A626700AF9133 /* T Event Management */,
 				5AC209BE200A626700AF9133 /* Products */,
+				A32D1A2D1FA31E91B01F48E5 /* Pods */,
+				5A6CE0788CD8E7DAFC76AC22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +89,18 @@
 				5A53955F200D272400B0719B /* ImageTextField.swift */,
 				5AF3C3C3200E4316004E8917 /* ImportTemplatesViewController.swift */,
 				5AF3C3C5200E45A6004E8917 /* TemplateCell.swift */,
+				5AF3C3C9200E4C19004E8917 /* FoodViewController.swift */,
 			);
 			path = "T Event Management";
+			sourceTree = "<group>";
+		};
+		A32D1A2D1FA31E91B01F48E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395A714EA004FB82E2C87E37 /* Pods-T Event Management.debug.xcconfig */,
+				78CA882C7D899EDDF1D14AFC /* Pods-T Event Management.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AC209CF200A626700AF9133 /* Build configuration list for PBXNativeTarget "T Event Management" */;
 			buildPhases = (
+				D2767C71D745E52011C36E6F /* [CP] Check Pods Manifest.lock */,
 				5AC209B9200A626700AF9133 /* Sources */,
 				5AC209BA200A626700AF9133 /* Frameworks */,
 				5AC209BB200A626700AF9133 /* Resources */,
+				6C45A485E0E84DD6E7E35D6B /* [CP] Embed Pods Frameworks */,
+				5B69F1B03098DB202E5B126F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,12 +173,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B69F1B03098DB202E5B126F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T Event Management/Pods-T Event Management-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C45A485E0E84DD6E7E35D6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-T Event Management/Pods-T Event Management-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Onboard/Onboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Onboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T Event Management/Pods-T Event Management-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2767C71D745E52011C36E6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-T Event Management-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AC209B9200A626700AF9133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5AC209C3200A626700AF9133 /* ViewController.swift in Sources */,
+				5AF3C3CA200E4C19004E8917 /* FoodViewController.swift in Sources */,
 				5AF3C3C7200E45A6004E8917 /* TemplateCell.swift in Sources */,
 				5AC209D3200A8B6F00AF9133 /* ShadowButton.swift in Sources */,
 				5AC209C1200A626700AF9133 /* AppDelegate.swift in Sources */,
@@ -288,6 +373,7 @@
 		};
 		5AC209D0200A626700AF9133 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 395A714EA004FB82E2C87E37 /* Pods-T Event Management.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +389,7 @@
 		};
 		5AC209D1200A626700AF9133 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78CA882C7D899EDDF1D14AFC /* Pods-T Event Management.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -27,6 +27,8 @@ class ImportTemplatesViewController: UIViewController {
             .instantiateViewController(withIdentifier: "ImportTemplatesViewController") as! ImportTemplatesViewController
     }
     
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue) { }
+    
 }
 
 extension ImportTemplatesViewController: UICollectionViewDataSource {
