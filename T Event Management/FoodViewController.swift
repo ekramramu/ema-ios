@@ -53,3 +53,12 @@ extension FoodViewController: UITableViewDataSource {
         return cell
     }
 }
+
+extension FoodViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let createEventVC = initViewController(withIdentifier: "CreateEvent")
+//        show(createEventVC, sender: nil)
+    }
+    
+}

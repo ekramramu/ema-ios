@@ -7,5 +7,6 @@ target 'T Event Management' do
 
   # Pods for T Event Management
   pod 'Onboard'
+  pod 'MaterialComponents'
 
 end
