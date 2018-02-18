@@ -11,7 +11,9 @@
 		5A2F9C0A203810410086FE7C /* CreateEventPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F9C09203810410086FE7C /* CreateEventPageViewController.swift */; };
 		5A2F9C0E203812D10086FE7C /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F9C0D203812D10086FE7C /* ViewControllerExtension.swift */; };
 		5A2F9C13203828C30086FE7C /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F9C12203828C30086FE7C /* BorderedView.swift */; };
+		5A2F9C15203971ED0086FE7C /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F9C14203971ED0086FE7C /* CreateEventViewController.swift */; };
 		5A539560200D272400B0719B /* ImageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A53955F200D272400B0719B /* ImageTextField.swift */; };
+		5A5F79E4203A038100A4B002 /* CreateEvent2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5F79E3203A038100A4B002 /* CreateEvent2ViewController.swift */; };
 		5AC209C1200A626700AF9133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC209C0200A626700AF9133 /* AppDelegate.swift */; };
 		5AC209C3200A626700AF9133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC209C2200A626700AF9133 /* ViewController.swift */; };
 		5AC209C6200A626700AF9133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AC209C4200A626700AF9133 /* Main.storyboard */; };
@@ -30,7 +32,9 @@
 		5A2F9C09203810410086FE7C /* CreateEventPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventPageViewController.swift; sourceTree = "<group>"; };
 		5A2F9C0D203812D10086FE7C /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 		5A2F9C12203828C30086FE7C /* BorderedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		5A2F9C14203971ED0086FE7C /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 		5A53955F200D272400B0719B /* ImageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextField.swift; sourceTree = "<group>"; };
+		5A5F79E3203A038100A4B002 /* CreateEvent2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEvent2ViewController.swift; sourceTree = "<group>"; };
 		5AC209BD200A626700AF9133 /* T Event Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "T Event Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AC209C0200A626700AF9133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AC209C2200A626700AF9133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			children = (
 				5A2F9C07203809440086FE7C /* CreateEvent1ViewController.swift */,
 				5A2F9C09203810410086FE7C /* CreateEventPageViewController.swift */,
+				5A2F9C14203971ED0086FE7C /* CreateEventViewController.swift */,
+				5A5F79E3203A038100A4B002 /* CreateEvent2ViewController.swift */,
 			);
 			path = "Create Event";
 			sourceTree = "<group>";
@@ -288,9 +294,11 @@
 				5A2F9C0A203810410086FE7C /* CreateEventPageViewController.swift in Sources */,
 				5AC209D3200A8B6F00AF9133 /* ShadowButton.swift in Sources */,
 				5AC209C1200A626700AF9133 /* AppDelegate.swift in Sources */,
+				5A5F79E4203A038100A4B002 /* CreateEvent2ViewController.swift in Sources */,
 				5A2F9C0E203812D10086FE7C /* ViewControllerExtension.swift in Sources */,
 				5A539560200D272400B0719B /* ImageTextField.swift in Sources */,
 				5AF3C3C4200E4316004E8917 /* ImportTemplatesViewController.swift in Sources */,
+				5A2F9C15203971ED0086FE7C /* CreateEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

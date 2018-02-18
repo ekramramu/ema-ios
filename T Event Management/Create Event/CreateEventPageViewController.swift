@@ -40,8 +40,8 @@ class CreateEventPageViewController: UIPageViewController {
     
     fileprivate lazy var pages: [UIViewController] = {
         return [
-            initViewController(withIdentifier: "CreateEvent1")
-            //            self.getViewController(withIdentifier: "Page2")
+            initViewController(withIdentifier: "CreateEvent1"),
+            initViewController(withIdentifier: "CreateEvent2")
         ]
     }()
     
