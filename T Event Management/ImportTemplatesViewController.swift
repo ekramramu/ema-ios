@@ -51,6 +51,8 @@ extension ImportTemplatesViewController: UICollectionViewDataSource {
 extension ImportTemplatesViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let createEventVC = initViewController(withIdentifier: "CreateEvent")
+        present(createEventVC, animated: true, completion: nil)
     }
     
 }

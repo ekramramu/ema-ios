@@ -11,7 +11,7 @@ import UIKit
 @IBDesignable
 class ImageTextField: UITextField {
     
-    @IBInspectable var cornerRadius : CGFloat = 0{
+    @IBInspectable var cornerRadius : CGFloat = 0 {
         didSet{
             layer.cornerRadius = cornerRadius
             layer.masksToBounds = cornerRadius > 0
@@ -62,11 +62,11 @@ class ImageTextField: UITextField {
     }
     
     override func textRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: 50, dy: 5)
+        return bounds.insetBy(dx: leftImage != nil ? 50 : 10, dy: 5)
     }
     
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
-        return bounds.insetBy(dx: 50, dy: 5)
+        return bounds.insetBy(dx: leftImage != nil ? 50 : 10, dy: 5)
     }
     
 }
