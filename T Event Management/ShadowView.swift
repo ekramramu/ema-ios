@@ -28,9 +28,11 @@ import UIKit
         layer.shadowPath = UIBezierPath(rect: bounds).cgPath
         layer.shouldRasterize = true
         layer.rasterizationScale = scale ? UIScreen.main.scale : 1
+        print("Any things")
     }
     
 
+    
     
     }
 
